@@ -50,6 +50,12 @@
           "name": "gpus",
           "positional": true,
           "required": true
+        },
+        "preserveColors": {
+          "type": "CONST",
+          "value": "-original_colors 1",
+          "name": "Preserve colors",
+          "required": true
         }
       }
     }
