@@ -10,7 +10,7 @@ fi
 
 STYLE_IMAGE="$1"
 CONTENT_IMAGE="$2"
-GPU_COUNT="$3"
+GPU_COUNT=$3
 PRESERVE_COLORS="$4"
 
 if [ $GPU_COUNT -lt 1 ]; then
